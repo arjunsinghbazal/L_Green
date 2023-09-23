@@ -21,7 +21,7 @@ const [value,setvalues]=useState([]);
       autoClose: 2000, // Display for 3 seconds
     });
     setTimeout(() => {
-      Navigate("/main")
+      Navigate("/")
       localStorage.clear();
     }, 1000);
   }
@@ -32,7 +32,7 @@ const [value,setvalues]=useState([]);
     });
     
     setTimeout(() => {
-      Navigate("/main")
+      Navigate("/")
       localStorage.clear();
     }, 1000);
   }

@@ -63,7 +63,7 @@ useEffect(()=>{
   placeholder="Search"
   value={input}
 />
-    <p onClick={()=>Navigate("/main")}>Home</p>
+    <p onClick={()=>Navigate("/")}>Home</p>
     <p className="count-box" onClick={()=>Navigate("/checkout")}>
     <img className="img" src={image} alt="404"/>
     {count>0?<p className="count">{count}</p>:null}</p>

@@ -1,5 +1,4 @@
 import React from "react";
-import Landing from "./landing";
 import Main from "./Main";
 import { BrowserRouter,Route,Routes } from "react-router-dom";
 import About from "./About";
@@ -12,8 +11,7 @@ function App() {
    <div>
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" Component={Landing}/>
-          <Route path="/main" Component={Main}/>
+          <Route path="/" Component={Main}/>
           <Route path="/about" Component={About}/>
           <Route path="/contact" Component={Contact}/>
           <Route path="/cart" Component={Plants}/>
