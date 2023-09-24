@@ -20,7 +20,7 @@ const Navigate=useNavigate();
     <div className="center">
         <div className="left">
             <h1>Spread <span className="green">green</span> in your life.</h1>
-            <h3>Beautiful plants for homes and offices</h3>
+            <h3>Beautiful plants for <span className="green">homes</span> and offices</h3>
             <button onClick={()=>Navigate("/cart")}>Shop now</button>
             <div className="numbers">
                 <div className="one">

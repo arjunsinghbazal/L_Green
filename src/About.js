@@ -20,7 +20,10 @@ const About = () => {
         <strong>Phone:</strong>+91346453328<br />
         <strong>Address:</strong>Delhi 6 big gali 9 sect. 90
       </p>
-      <button className='btn' onClick={()=>Navigate("/main")}>Home</button>
+      <button className='btn' onClick={()=>Navigate("/contact")}>Contact</button>
+      <button type="button" className="btn" onClick={() => Navigate('/')}>
+            Back
+          </button>
     </div>
   );
 };
